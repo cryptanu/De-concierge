@@ -20,6 +20,12 @@ export const QUICK_PROMPTS: QuickPrompt[] = [
     keywords: ["conference", "la rural", "desk", "fiber", "executive"],
   },
   {
+    id: "madero-river",
+    label: "Looking for a loft at Puerto Madero with a river view",
+    hint: "Prefer sunrise light · balcony seating · up to 320 USDC/night",
+    keywords: ["puerto", "madero", "river", "loft", "balcony", "sunrise"],
+  },
+  {
     id: "family-retreat",
     label: "Secure a family apartment with two bedrooms and privacy",
     hint: "Parents with kids · 2 bedrooms · garden or outdoor space",
@@ -77,6 +83,31 @@ export const RECOMMENDATIONS: RecommendationBase[] = [
       "business",
     ],
     priority: 2,
+  },
+  {
+    id: "rec-madero-loft",
+    intentExample: "Find a sunlit loft in Puerto Madero with balcony views",
+    title: "Puerto Madero River Loft · balcony + river light",
+    ensName: "river.madero.eth",
+    nightlyRate: "320 USDC",
+    summary:
+      "Circle permit processed at 10:12 — escrow hold active for 45 minutes. Filecoin CID cid://QmRiver backed by Flare attested ICS feed.",
+    highlights: [
+      "Direct river-facing balcony with sunrise exposure",
+      "Booking.com + Airbnb calendars synced without conflicts",
+      "ENS text record exposes latest maintenance + amenities metadata",
+    ],
+    propertyId: "prop-910",
+    keywords: [
+      "puerto",
+      "madero",
+      "river",
+      "loft",
+      "balcony",
+      "sunlight",
+      "view",
+    ],
+    priority: 4,
   },
   {
     id: "rec-family-duplex",
