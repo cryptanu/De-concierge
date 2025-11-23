@@ -1,0 +1,14 @@
+{
+  "name": "de-concierge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "De-concierge – ENS-powered, Polygon-native booking ledger for vacation rentals.",
+  "license": "MIT",
+  "scripts": {
+    "bootstrap": "bash ./scripts/bootstrap.sh"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
+
