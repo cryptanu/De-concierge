@@ -19,7 +19,8 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@deconcierge/services": ["../services/src/index.ts"]
     }
   },
   "include": [

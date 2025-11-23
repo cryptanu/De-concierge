@@ -8,7 +8,7 @@
     "bootstrap": "bash ./scripts/bootstrap.sh"
   },
   "devDependencies": {
+    "@types/luxon": "^3.7.1",
     "prettier": "^3.2.5"
   }
 }
-

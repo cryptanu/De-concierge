@@ -1,9 +1,20 @@
 {
-  "name": "services",
+  "name": "@deconcierge/services",
   "version": "1.0.0",
-  "description": "",
+  "description": "Domain services powering De-concierge intent planning, ingestion stubs, and verification logic.",
   "type": "module",
   "main": "dist/index.js",
+  "types": "src/index.ts",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "types": "./src/index.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
@@ -14,9 +25,14 @@
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.15.0",
-  "dependencies": {},
+  "dependencies": {
+    "luxon": "^3.5.0",
+    "uuid": "^9.0.1",
+    "zod": "^3.23.8"
+  },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
+    "@types/luxon": "^3.7.1",
     "eslint": "^9.39.1",
     "typescript-eslint": "^8.17.0",
     "typescript": "^5.9.3",
